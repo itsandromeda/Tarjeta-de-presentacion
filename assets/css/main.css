@@ -1,0 +1,49 @@
+html {
+    background-color: #0e0e0e;
+}
+
+.card-wrapper {
+    box-sizing: border-box;
+    width: 550px;
+    height: 300px;
+    margin: 170px auto 0 auto;
+    border: 8px solid #fff;
+    overflow: hidden;
+}
+
+#trapezoid {
+    background-size: 200px;
+    border-bottom: 285px solid #3c3c3b;
+    border-left: 170px solid transparent;
+    border-right: 0 solid transparent;
+    position: relative;
+    width: 200px;
+    float: right;
+}
+
+.block {
+    position: absolute;
+    right: 60px;
+    width: 180px;
+}
+
+h1 {
+    font: bold 25px "Rajdhani", Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-align: right;
+    top: 40px;
+}
+
+h2 {
+    font: 100 15px "Raleway", Helvetica, Arial, sans-serif;
+    color: #f5a731;
+    text-align: right;
+    top: 120px;
+}
+
+.personal-info {
+    font: 100 11.5px/5px "Raleway", Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-align: left;
+    top: 175px;
+}
