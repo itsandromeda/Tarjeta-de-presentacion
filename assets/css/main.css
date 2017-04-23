@@ -3,12 +3,22 @@ html {
 }
 
 .card-wrapper {
+    background-image: url(../images/primer_grupo.jpg);
+    background-size: contain;
     box-sizing: border-box;
+    position: relative;
     width: 550px;
     height: 300px;
     margin: 170px auto 0 auto;
     border: 8px solid #fff;
     overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    height: 40px;
 }
 
 #trapezoid {
